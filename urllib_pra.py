@@ -1,5 +1,7 @@
 #ライブラリの読み込み
+import sys
 import urllib.request
+import urllib.parse
 
 
 '''urlretrieve()による保存'''
@@ -36,5 +38,27 @@ res = urllib.request.urlopen(url)
 data = res.read()
 
 #バイナリーを文字列に変換
+text = data.decode('utf-8')
+print(text)
+
+
+'''任意のパラメータをつけてリクエストを送信'''
+
+#%%
+API = 'https://api.aoikujira.com/zip/xml/get.php'
+
+#パラメータをURLエンコードする。
+values = {
+    'fmt': 'xml',
+    'zn': '1200037'
+}
+params = urllib.parse.urlencode(values)
+
+#リクエスト用のURLを生成
+url = API + '?' + params
+print('url=', url)
+
+#ダウンロード
+data = urllib.request.urlopen(url).read()
 text = data.decode('utf-8')
 print(text)
