@@ -119,3 +119,31 @@ print('h1 =', h1)
 li_list = soup.select('div#meigen > ul.items > li')
 for li in li_list:
     print('li =', li.string)
+
+
+'''為替情報の取得'''
+
+#%%HTMLを取得
+url = "https://stocks.finance.yahoo.co.jp/stocks/detail/?code=usdjpy"
+res = req.urlopen(url)
+
+#HTMLを解析
+soup = BeautifulSoup(res, 'html.parser')
+
+#任意のデータを抽出
+price = soup.select_one('td.stoksPrice').string
+print('usd/jpy=', price)
+
+
+'''クジラWebで為替情報を取得'''
+
+#%%為替情報XMLを取得
+url = "https://api.aoikujira.com/kawase/xml/usd"
+res = req.urlopen(url)
+
+#HTMLを解析
+soup = BeautifulSoup(res, 'html.parser')
+
+#任意のデータを抽出
+jpy = soup.select_one('JPY').string
+print('usd/jpy=', jpy)
