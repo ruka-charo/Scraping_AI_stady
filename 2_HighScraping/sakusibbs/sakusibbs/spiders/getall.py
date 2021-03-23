@@ -70,12 +70,3 @@ class GetallSpider(scrapy.Spider):
     def closed(self, reason):
         # ブラウザを閉じる
         selenium_close()
-
-
-
-
-
-
-
-    def parse(self, response):
-        pass
