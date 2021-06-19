@@ -1,6 +1,5 @@
-%cd /Users/rukaoide/Library/Mobile Documents/com~apple~CloudDocs/Documents/Python/10_Scraping_AI_stady/6_Morphologic/data
 from janome.tokenizer import Tokenizer
-from math
+import sys, math
 
 #%% ベイジアンフィルター
 class BayesianFilter:
@@ -13,7 +12,7 @@ class BayesianFilter:
     def split(self, text):
         result = []
         t = Tokenizer()
-        malist = t.tokenizer(text)
+        malist = t.tokenize(text)
         for w in malist:
             sf = w.surface # 区切られた単語そのまま
             bf = w.base_form # 単語の基本形
@@ -52,3 +51,34 @@ class BayesianFilter:
         return score
 
     # テキストのカテゴリ分けを行う
+    def predict(self, text):
+        best_category = None
+        max_score = -sys.maxsize
+        words = self.split(text)
+        score_list = []
+        for category in self.category_dict.keys():
+            score = self.score(words, category)
+            score_list.append((category, score))
+            if score > max_score:
+                max_score = score
+                best_category = category
+        return best_category, score_list
+
+    # カテゴリ内の単語出現数を得る
+    def get_word_count(self, word, category):
+        if word in self.word_dict[category]:
+            return self.word_dict[category][word]
+        else:
+            return 0
+
+    # カテゴリ/総カテゴリを計算
+    def category_prob(self, category):
+        sum_categories = sum(self.category_dict.values())
+        category_v = self.category_dict[category]
+        return category_v / sum_categories
+
+    # カテゴリ内の単語の出現率を計算
+    def word_prob(self, word, category):
+        n = self.get_word_count(word, category) + 1
+        d = sum(self.word_dict[category].values()) + len(self.words)
+        return n / d
