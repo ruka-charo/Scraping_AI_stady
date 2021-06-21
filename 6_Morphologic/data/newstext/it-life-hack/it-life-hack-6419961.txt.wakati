@@ -1,0 +1,37 @@
+簡単 システム キャッシュ サイズ 変更 CacheSet 最適 仮想 メモリー 設定 する PC 快適 術 
+ メモリー モジュール 価格 下落 64 ビット 版 Windows 7 普及 PC 搭載 する れる メモリー 容量 最低 4 G バイト 最大 64 G バイト 容量 なる くる いる 一昔 前 考える られる 容量 ハイエンド ノート PC 32 G バイト 積む モデル ある 32 G バイト 言う 登場 直後 ネット ブック 搭載 する れる いる 内蔵 SSD 並み 容量 容量 メモリー 搭載 おかげ システム 動作 快適 なる くる いる Windows システム 仮想 メモリー 機能 搭載 する れる 容量 メモリー 搭載 する いる 仮想 メモリー 利用 する れる 
+ 
+ 
+ Windows システム ファイル キャッシュ する 機能 搭載 する れる いる 利用 する システム ファイル キャッシュ 領域 置く おく こと 必要 とき 取り出せる よう する ため キャッシュ 物理 メモリー 超える サイズ なる HDD 上 ページング ファイル 退避 する れる 
+ 
+ 仮想 メモリー サイズ Windows 設定 決める こと できる CacheSet 利用 する リアルタイム キャッシュ 周り 設定 変更 する こと できる CacheSet 起動 する Working set minimum 最小 値 入力 する Working set maximum 最大 値 入力 する Apply クリック する 即座 反映 する れる 図 1 図 2 
+ 
+ 
+ 
+ 図 1 Windows 仮想 メモリー サイズ 指定 する こと できる OS 起動 必要 反映 する れる 
+ 
+ 
+ 
+ 
+ 図 2 CacheSet Working set minimum 最小 値 入力 する Working set maximum 最大 値 入力 する Apply クリック する 
+ 
+ 
+ 通常 サイズ 変更 する Windows 起動 必要 CacheSet Windows 起動 する 必要 ない の 楽 Clear クリック する 現在 キャッシュ 内 データ すべて クリア する れる ページング ファイル 構築 する せる とき 起動 する Clear クリック する 感じ 使う 重宝 する 
+ 
+ CacheSet ダウンロード 解説 
+ Windows Sysinternals TechCenter 
+ 
+ 
+ IT ライフハック Twitter 
+ 
+ PC 快適 術 記事 見る 
+ 特定 通信 止める こと 可能 netstat 以上 便利 TCPView PC 快適 術 
+ 使用 状況 ビジュアル 表示 メモリー 割り当て 状況 視覚 化 する RAMMap PC 快適 術 
+ HDD 内 徹底 調査 PageDefrag お供 最適 DiskView PC 快適 術 
+ できる こと できる 通常 解消 できる 断片 化 解消 する くれる PageDefrag PC 快適 術 
+ 一緒 使う 効果 倍増 Process Explorer お供 Autoruns PC 快適 術 
+ 
+ 
+ I - O DATA n テクノロジー 対応 150 Mbps ( 規格 値 ) ポケットルーター ブラック WN - G 150 TRK 
+ クチコミ 見る 
+ 

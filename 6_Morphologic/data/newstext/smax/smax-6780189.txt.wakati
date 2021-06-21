@@ -1,0 +1,26 @@
+Web ブラウザ Firefox スマート フォン OS Mozilla Firefox OS パソコン 用 ビルド 試す レポート 
+ Firefox 動く スマート フォン OS パソコン いち早い 体験 
+ 
+ Firefox いう パソコン 用 Web ブラウザ なじみ 深い Firefox ベース スマート フォン OS 開発 する 試み 開発元 Mozilla 進める られる いる 成果 なる Firefox OS 搭載 する 端末 登場 する の 先 話 度 Firefox OS パソコン 試せる ビルド 済 ファイル 公開 する れる 試す みる 動かせる 思う の そこ 開発 中 ビルド 一筋縄 行く ...。 続き 記事 本文 
+ 
+ スマート フォン 機能 全て ブラウザ 上 実現 する Firefox OS 
+ Firefox OS 概要 簡単 説明 する Firefox OS Boot to Gecko プロジェクト 開発 進める られる おる iPhone 使用 する れる いる iOS 多く スマート フォン 市販 する れる いる Android スマート フォン 用 OS 分類 する れる 特徴 スマート フォン 要求 する れる 電話 メール カメラ 機能 すべて Firefox ブラウザ 上 実現 する こと アプリ HTML 5 JavaScript Web 標準 構築 する れる それ Firefox ブラウザエンジン 表示 する こと スマート フォン 画面 構築 する 仕組み アプリ 開発 者 プラットフォーム 依存 する API 解放 する れる Web 標準 枠 中 アプリ 作れる よう なる 触れ込み 
+ Firefox OS パソコン 用 ビルドファイル 動く 
+ Firefox OS パソコン 動かす みる パソコン 実行 できる ビルドファイル Mozilla FTP サイト Windows Mac Linux 用 ダウンロード する こと できる Windows 用 b 2 g - 17 . 0 a 1 . en - US . win 32 . zip よう ファイル ダウンロード する 実行 ファイル 圧縮 ファイル 中 ある b 2 g . exe の ファイル 単体 Firefox OS 起動 する こと できる 
+ Mozilla ドキュメント よる ビルドファイル 動かす ため profile ビルド する b 2 g 読み込む せる 必要 ある こと ため 
+ コマンド 実行 する 書く れる いる コマンド 詳細 説明 省く Firefox OS 試す みる 人 向け の 明らか いう ここ 来る 以上 引き下がる コマンド 実行 できる 環境 Linux : Ubuntu 12 . 04 用意 する profile 作成 する Firefox OS 動かす みる 
+ スマート フォン おなじみ ロック 解除 画面 写真 左 ロック 解除 する 表示 する れる ホーム 画面 iPhone 風 写真 右 
+ 電話 写真 左 ショート メッセージ 写真 右 存在 する パソコン 上 使う こと できる 
+ カメラ 検証 環境 機能 する 写真 左 電卓 使用 できる 写真 右 
+ Firefox OS ある ブラウザ Firefox 写真 左 複数 タブ 切替 可能 写真 右 
+ 完成 度 期待 できる そう 
+ パソコン 上 動作 する せる Firefox OS 予想 外 軽快 動作 する こと 印象 的 OS 仕組み 上 スマート フォン 画面 構成 する HTML パソコン Firefox ブラウザ 表示 する いる ため 通常 Firefox 程度 パフォーマンス 動作 する パソコン 動かす スマートフォン エミュレータ ある がち 感 感じる 開発 途上 こと 機能 使える 異常 終了 する 事 ある リリース 期待 する せる 素性 良い さ 十分 感じる こと できる 
+ Firefox OS 最初 端末 2013 年 ブラジル 発売 する れる 予定 日本 展開 情報 ある Firefox OS 主 ローエンド 端末 向け 展開 する れる 見込み こと ハイエンド 志向 日本 難しい ところ ある しれる 端末 使う みる ところ 
+ 記事 執筆 えどる 吉川 英一 
+ 関連 リンク 
+ エスマックス S - MAX 
+ エスマックス S - MAX smaxjp on Twitter 
+ Boot to Gecko ( Firefox OS )（ Mozilla 
+ Gaia / Hacking Mozilla 
+ パソコン 向け Firefox OS ダウンロード FTP サイト 
+ 

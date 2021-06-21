@@ -1,0 +1,48 @@
+Ubuntu Windows 的 する デスク トップ シェル 変更 する デジ 通 
+ これ 述べる くる よう Ubuntu ウブントゥ デスク トップ 環境 非常 できる おる Linux ディストリビューション ハードル 低い 
+ 
+ いう MacOS X 似る 使いこなす 違和感 おぼえる ユーザー 多い よう とき 柔軟 性 高い Linux 外観 大きい 簡単 変更 できる 
+ 
+ 
+ Unity タッチ 式 デバイス 意識 
+ Ubuntu インストール する あらわれる デスク トップ Unity ユニティ ユーザーインターフェイス 使う みる 分かる 左側 並ぶ アプリケーションランチャー アプリ 一覧 表示 する Dash ホーム メニュー ツール バー 表示 する れる 外観 MacOS X 非常 似る いる 
+ 
+ Dash ホーム 典型 的 Unity タッチ 式 デバイス 使える こと 意識 する もの ため メニュー たどる アプリケーション 起動 する よう Windows 慣れ親しむ くる 使い方 困難 の 
+ 
+ する いい の 
+ 
+ 複数 ある Linux デスク トップ 環境 
+ Linux 向け 複数 デスク トップ 環境 開発 する れる おる それら 切り替える 使う こと できる 代表 的 の GNOME グノーム KDE ケーディーイー それぞれ 専用 ファイル マネージャ ターミナル 端末 エミュレータ テキストエディタ 搭載 する れる いる 
+ 
+ Ubuntu 標準 Unity GNOME 向け 独自 開発 する れる シェル GNOME 標準 シェル GNOME Shell Unity 異なる Windows ユーザー KDE GNOME Shell 方 なじむ やすい 
+ 
+ KDE インストール 面倒 ここ GNOME Shell 使う 方法 解説 する 
+ 
+ コマンド 入力 インストール 
+ GNOME Shell 使う 以下 コマンド 入力 する 途中 パスワード 入力 する 必要 ある の ディスプレイ マネージャ 選択 する ダイアログ 表示 する れる 標準 まま よい 
+ 
+ $ sudo apt - get install gnome - core gnome - games gnome - documents gnome - packagekit gnome - video - effects hamster - applet gnome - sushi gnome - doc - utils evolution 
+ 
+ インストール 終了 後 起動 する ログイン 画面 シェル 選択 できる よう なる いる はず Windows ライク 使う GNOME Classic 選ぶ 
+ 
+ GNOME Classic 上部 ツール バー 左側 アプリケーション 場所 表示 する れる アプリケーション ツリー 式 たどる いく こと アプリ 起動 できる 場所 ホームフォルダ 内 フォルダ 一覧 表示 する れる 下部 ツール バー 開く いる フォルダ タスク 表示 する れる メニュー ウィンドウ ごと 独立 する これ Windows ライク 操作 できる よう なる 
+ 
+ Linux 柔軟 性 高い さ 使う 実感 できる もの ワナ はまる 抜け出せる こと 請け合い 
+ 
+ Ubuntu Japanese Team 
+ 
+ 大島 克彦 katsuosh digi 2 デジ 通 
+ 
+ digi 2 デジタル 通 略 現在 デジタル 機器 使いこなす 難しい なる いる 
+ 皆さん デジタル 機器 通 近づく ため 情報 皆さん 通 執筆 陣 提供 する 
+ 
+ 
+ IT ライフハック Twitter 
+ 
+ デジ 通 記事 見る 
+ Ubuntu Office 互換 ソフト 使う OpenOffice めぐる あれこれ 
+ 便利 危険 背中合わせ BIOS ロック データ 盗む 取り 防げる 
+ Google IM Mozc 使う Ubuntu 日本語 入力 改善 
+ 非公式 アプリ イケ Ubuntu Evernote 使える 
+ DVD 起動 アプリ 使える 便利 Ubuntu 使い方 
+ 

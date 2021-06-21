@@ -1,0 +1,79 @@
+メモリ 上 残る ゴミ MS 純正 メモリー 開放 ツール PC 快適 術 
+ 64 ビット 版 Windows 7 普及 する こと 4 G バイト 以上 メモリー 積む それ 利用 できる よう なる 8 G バイト 以上 メモリー 搭載 する いる たくさん アプリ 立つ あげる 重い なる こと 多く アプリ 起動 終了 繰り返す メモリー 上 ゴミ 残る しまう こと ある それ 取り除く 方法 紹介 する 
+ 
+ 容量 メモリー 搭載 普通 なる くる 言う いくつ アプリ 立つ 上げる いる メモリー 食う よう 処理 複数 動かす いる する PC 動作 重い なる しまう こと ある 4 G バイト 以下 メモリー 容量 いま 32 ビット 版 Windows XP Vista 使う いる 人 いる 
+ 
+ 人 たち 利用 できる 安全 メモリー 上 ゴミ クリーンアップ できる ツール マイクロソフト リリース する いる ツール Windows Server 2003 Resource Kit Tools 含む れる empty . exe 9 . 5 KB プログラム 
+ 
+ empty . exe 入手 方法 
+ 
+ Windows Server 2003 Resource Kit Tools ダウンロード する くる 図 1 ダウンロード する の rktools . exe ファイル サイズ 11 . 7 M バイト 大きい これ 落とす Explzh ファイル 解凍 ソフト ファイル 解凍 する ファイル 中 見れる ソフト 中 見る かまう 
+ 
+ 
+ 
+ 図 1 Windows Server 2003 Resource Kit Tools ダウンロード する くる 
+ 
+ 
+ rktools . exe rktools . msi rktools _ p . cab rktools _ s . cab 3 ファイル 構成 する れる いる 図 2 必要 なる の rktools . msi これ 解凍 する 中 empty . exe ある はず 
+ 
+ 
+ 
+ 図 2 rktools . exe rktools . msi rktools _ p . cab rktools _ s . cab 3 ファイル 構成 する れる いる 
+ 
+ 
+ 解凍 ソフト ない 場合 ファイル 抽出 する の 面倒 の インストール する しまう 64 ビット 版 Windows 7 場合 インストール 時 互換 性 云々 メッセージ 表示 する れる こと ある 気 する インストール する しまう 
+ 
+ インストール する れる 場所 32 ビット 版 64 ビット 版 以下 よう なる 
+ 
+ 32 ビット 版 場合 
+ 
+ C :\ Program Files \ Windows Resource Kits \ Tools \ 
+ 
+ 64 ビット 版 場合 
+ 
+ C :\ Program Files ( x 86 )\ Windows Resource Kits \ Tools \ 
+ 
+ フォルダ 開く そこ empty . exe ある はず 図 4 
+ 
+ 
+ 
+ 図 4 Windows Server 2003 Resource Kit Tools インストールフォルダ 開く empty . exe さがす 
+ 
+ 
+ empty . exe system 32 フォルダ コピー する 
+ 
+ 取り出す empty . exe C :\ Windows \ System 32 以下 コピー する 場所 64 ビット 版 Windows 7 変える いける System 32 フォルダ コピー する empty . exe コマンドプロンプト cmd 動作 する プログラム 
+ 
+ メモ 帳 使う バッチ ファイル 作成 する 
+ 
+ empty . exe C :\ Windows \ System 32 以下 コピー できる プログラム 使える よう なる いる あと コマンドプロンプト 開く empty . exe 実行 する いい の コマンドプロンプト 開く の 面倒 ここ バッチ ファイル 作成 する 
+ 
+ メモ 帳 開く 以下 よう 入力 する 
+ 
+ @ echo off 
+ empty . exe * 
+ 
+ 上記 半角 入力 する メモリー 開放 ファイル 名 付ける テキスト 保存 する 保存 する 拡張 子 「. bat 変更 する 図 5 あと バッチ ファイル 定期 的 実行 する メモリー 上 残る 余計 ゴミ 掃除 する れる 重い なる 時 実行 する 効果 わかる 試す みる ほしい 
+ 
+ 
+ 
+ 図 5 メモリー 開放 ファイル 名 付ける テキスト 保存 する 拡張 子 「. bat 変更 する 
+ 
+ 
+ Windows Server 2003 Resource Kit Tools ダウンロード ページ 
+ 日本 マイクロソフト 
+ 
+ 
+ 
+ 
+ PC 快適 術 記事 見る 
+ Win 7 Skype 多重 起動 する Skype 起動 オプション 設定 
+ PC がち トラブル 対処 法 復帰 時 パス 入力 省略 する PC 技 
+ 違う 表示 元 戻す PC 技 エクスプローラー 表示 変わる とき 対処 法 
+ 素朴 解決 する PC トラブル パソコン 時計 狂う の 防ぐ 技 
+ Win 7 知る わかる 謎 開く てる 場所 フォルダ 知る 術 
+ 
+ 
+ ソースネクスト 驚 速 for Windows 7 価格 
+ クチコミ 見る 
+ 
