@@ -1,6 +1,8 @@
 '''マルコフ連鎖'''
+%cd /Users/rukaoide/Library/Mobile Documents/com~apple~CloudDocs/Documents/Python/10_Scraping_AI_stady/6_Morphologic
 from janome.tokenizer import Tokenizer
 import os, re, json, random
+from pprint import pprint
 
 
 # マルコフ連鎖の辞書を作成
@@ -84,3 +86,8 @@ for i in range(3):
     s = make_sentence(dic)
     print(s)
     print('---')
+
+
+#%% 辞書の中身を確認する
+dic = json.load(open(dict_file, 'r'))
+pprint(dic['歩き'])
