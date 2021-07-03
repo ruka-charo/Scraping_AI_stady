@@ -49,7 +49,7 @@ def show_form():
       $.get(url, {"m":"say","txt":txt},
         function(res) {
           var html = "<div class='usr'><span>" + esc(txt) +
-            "</span>:あなた</div><div class='bot'>ボット:<span>" +
+            "</span>:あなた</div><div class='bot'>ボット(改良版):<span>" +
             esc(res) + "</span></div>";
           $('#chat').html($('#chat').html()+html);
           $('#txt').val('').focus();

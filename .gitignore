@@ -5,6 +5,10 @@ __pycache__/
 *.json
 *.txt
 *.model
+*.png
+*.csv
+*.pkl
+*.icloud
 
 # C extensions
 *.so
